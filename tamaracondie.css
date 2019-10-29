@@ -1,0 +1,154 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: "montserrat";
+    color: #3c3c3c;
+}
+h1::after {
+  display:inline-block;
+    height:34px;
+    width:34px;
+    margin-right: 5px;
+    content: " ";
+    background:url("camera.png") no-repeat 0 0;
+    background-size: 34px 34px;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+      font-family: "montserrat";
+      font-weight: 100px;
+    }
+p1 {
+      font-family: "montserrat";
+      font-weight: bold;
+      font-size: 22px;
+      color: black;
+}
+p2 {
+    font-size: 28px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+    background-image: url("white.jpg");
+}
+.top-bar {
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: black
+}
+figcaption {
+    font-family: "montserrat";
+    font-size: 13px;
+    color: black
+}
+ul {
+font:20px "montserrat",san-serif;
+}
+
+.logo {
+   font-size: 30px;
+   position: absolute;
+   padding: px 0px 0px 20px;
+   z-index: 3;
+   color: #131359;
+   font-weight: bold;
+   width: 100%
+}
+
+.top-menu {
+   background-color: #737373;
+   position: absolute;
+   top: 115px;
+   z-index: 2;
+   width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-family: "montserrat";
+    font-size: 25px; 
+    float: right;
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: #F6D0F3;
+    text-decoration: none;
+    padding: 20px 20px 20.5px 20px;
+}
+
+.top-menu li a:hover {
+    background-color: darkgrey;
+}
+
+.current-page-link {
+    background-color: darkgrey;
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background-color:hsla(0,0%,100%,0.7);
+    
+}
+
+.main-section {
+    padding: 45px 10px 10px 10px;
+}
+
+.main-section h1, .main-section h2 {
+    color: black; font-family: "montserrat";
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index:3;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#737373;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: white;
+}
+
+.footer-content a:link {
+    color: white;
+    text-decoration: none;
+}

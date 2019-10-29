@@ -4,33 +4,47 @@ html, body {
     font-family: 'Roboto', sans-serif;
     color: #666666;
 }
-
+p {
+      font-family: "montserrat";
+      font-weight: 100;
+    }
+body {
+    background-image: url("wall.jpg");
+    background-repeat: no-repeat;
+}
 .top-bar {
-    max-width: 1000px;
+    max-width: 1500px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    color: black
+}
+
+ul {
+font:20px "montserrat",san-serif;
 }
 
 .logo {
-    font-size: 30px;
-    position: absolute;
-    padding: 0px 0px 0px 20px;
-    z-index: 3;
-    color: #131359;
-    font-weight: bold;
+   font-size: 30px;
+   position: absolute;
+   padding: px 0px 0px 20px;
+   z-index: 3;
+   color: #131359;
+   font-weight: bold;
 }
 
 .top-menu {
-    position: absolute;
-    top: 85px;
-    z-index: 2;
-    width: 100%;
+   background-color: #737373;
+   position: absolute;
+   top: 115px;
+   z-index: 2;
+   width: 100%;
 }
 
 .top-menu ul {
     list-style-type: none;
-    font-size: 20px; 
+    font-family: "montserrat";
+    font-size: 25px; 
     float: right;
     margin-right: 20px;
 }
@@ -40,39 +54,35 @@ html, body {
 }
 
 .top-menu li a:link, .top-menu li a:visited {
-	color: black;
-	text-decoration: none;
-	padding: 20px 20px 20.5px 20px;
+    color: #ffccff;
+    text-decoration: none;
+    padding: 20px 20px 20.5px 20px;
 }
 
 .top-menu li a:hover {
-    border-style: solid;
-    border-width: 0px 0px 4px 0px;
-    border-color: red;
+    background-color: darkgrey;
 }
 
 .current-page-link {
-    border-style: solid;
-    border-width: 0px 0px 4px 0px;
-    border-color: darkblue;
+    background-color: darkgrey;
 }
 
 .page-content {
-	position: relative;
-	top: 145px;
+    position: relative;
+    top: 145px;
     max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
     z-index: 1;
 }
 
 .main-section {
-    padding: 10px 20px 10px 20px;
+    padding: 45px 10px 10px 10px;
 }
 
 .main-section h1, .main-section h2 {
-    color: black;
+    color: black; font-family: "montserrat";
 }
 
 .main-section figure, .main-section img {
@@ -85,19 +95,18 @@ html, body {
     position: relative;
     top: 140px;
     z-index: 3;
-    max-width: 1000px;
+    max-width: 2000px;
     margin-left: auto;
-    margin-right: auto;   border-style: solid;
-    border-width: 5px 0px 0px 0px;
-    border-color: darkblue;
+    margin-right: auto;
+    background-color:#3f3c3c;
 }
 
 .footer-content {
     padding: 5px 5px 5px 20px;
-    color: black;
+    color: white;
 }
 
 .footer-content a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
